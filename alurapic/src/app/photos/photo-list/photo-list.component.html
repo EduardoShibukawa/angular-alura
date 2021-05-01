@@ -8,7 +8,7 @@
             >
     </form>
 </div>
-<ap-photos [photos]="photos | filterByDescription: filter"></ap-photos>
+<ap-photo [photos]="photos | filterByDescription: filter"></ap-photo>
 <ap-load-button 
     (click)="load()"
     [hasMore]="hasMore"

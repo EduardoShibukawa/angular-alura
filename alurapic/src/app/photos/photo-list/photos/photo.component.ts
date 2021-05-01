@@ -3,11 +3,11 @@ import { Component, Input, OnChanges, OnInit, SimpleChanges } from '@angular/cor
 import { Photo } from '../../photo/photo';
 
 @Component({
-  selector: 'ap-photos',
-  templateUrl: './photos.component.html',
-  styleUrls: ['./photos.component.css']
+  selector: 'ap-photo',
+  templateUrl: './photo.component.html',
+  styleUrls: ['./photo.component.css']
 })
-export class PhotosComponent implements OnChanges {
+export class PhotoComponent implements OnChanges {
 
   @Input() photos: Photo[] = [];
   rows: any[] = [];

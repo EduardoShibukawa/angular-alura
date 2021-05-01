@@ -8,11 +8,11 @@ import { Photo } from '../photo/photo';
 import { PhotoService } from '../photo/photo.service';
 
 @Component({
-  selector: 'ap-photos-list',
-  templateUrl: './photos-list.component.html',
-  styleUrls: ['./photos-list.component.css']
+  selector: 'ap-photo-list',
+  templateUrl: './photo-list.component.html',
+  styleUrls: ['./photo-list.component.css']
 })
-export class PhotosListComponent implements OnInit, OnDestroy {
+export class PhotoListComponent implements OnInit, OnDestroy {
 
   photos: Photo[] = [];
   filter: string = '';
